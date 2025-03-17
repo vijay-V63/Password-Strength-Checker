@@ -83,4 +83,8 @@ if password:
         st.error("❌ Your password is weak! Consider improving it.")
 st.markdown("---")
 st.markdown("<h3 style='text-align: center; color: orange;'>Developed by Vijay Vadapalli 🤠</h3>",unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center;'>Contact me: @ramkrishvan06@gmail.com</h2>",unsafe_allow_html=True)
+st.markdown(
+    "<h2 style='text-align: center;'>Contact me: "
+    "<a href='mailto:ramkrishvan06@gmail.com' style='color: blue;'>ramkrishvan06@gmail.com</a></h2>",
+    unsafe_allow_html=True
+)
